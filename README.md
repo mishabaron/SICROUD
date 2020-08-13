@@ -3,7 +3,7 @@ Modeling and estimation for COVID-19 under-reported counts
 
 The project includes two R codes - humdataload.R and SICROUD.R
 
-### humdataload.R ###
+### humdataload.R ### 
 
 The R program "humdataload.R" reads the most recently 
 updated COVID-19 counts data from The Humanitarian Data Exchange (HDX)
