@@ -10,8 +10,8 @@ States   = read.csv(url("https://data.humdata.org/hxlproxy/api/data-preview.csv?
 # Data from https://data.humdata.org/dataset/novel-coronavirus-2019-ncov-cases
 # Defines functions: conf, mort, counts, counts.state, counts.county
 
-
-setwd("C:\\Users\\baron\\Documents\\Research\\Grants\\NSF-RAPID 2020\\Prep to research")
+# Insert the proper path
+setwd("... ... ...")
 Population = read.csv("Population.csv");
 
 
@@ -372,7 +372,6 @@ Date = as.numeric(States$date)  # In date format, such as 2020-06-13
 Day1 = min(Date)
 T = as.numeric(max(Date)-Day1+1) # Number of days so far. Day 1 = Jan 21, 2020
 
-setwd("C:\\Users\\baron\\Documents\\Research\\Grants\\NSF-RAPID 2020\\Prep to research");
 StatePop = read.csv("PopulationStates.csv")
 
 
